@@ -1,0 +1,216 @@
+*{
+  margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+/* letter-spacing: 0.1rem */
+/* width: 100vw; */
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'League Spartan', sans-serif;
+  scroll-behavior: smooth;
+}
+/* -----------navbar----------------------- */
+
+.navbarexplore{
+
+  display: flex;
+  /* justify-content:space-around ; */
+  align-items: center;
+  /* padding: 2rem; */
+  background-color: #4d1354;
+  text-transform: uppercase;
+
+}
+
+.menuBarexplore ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin-left: 70rem;
+}
+#navlogoexplore{
+  margin-left: 8rem;
+
+}
+
+#navlogoexplore img{
+  width: 6rem;
+}
+
+.navbarexplore ul li a {
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color:  white;
+  scroll-behavior: smooth;
+  margin: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* ----------------card part--------------------------- */
+.card_container {
+  display: flex;
+  padding: 50px 80px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* width: 60%; */
+}
+.card {
+  margin: 25px;
+  width: 25rem;
+}
+
+.citytitle {
+  font-size: 2.5rem;
+}
+.card-text {
+  font-size: 1.5rem;
+}
+.card a {
+  padding: 1rem;
+  font-size: 1.2rem;
+  background-color: white;
+  border: 2px solid #2F8F9D;
+  color: black;
+}
+
+.card a:hover{
+  background-color: #2F8F9D;
+  color: white;
+  border: 2px solid #87d9d5;
+}
+.img img{
+  width:60rem;
+}
+
+.search {
+  display: flex;
+  /* justify-content; */
+  align-items: center;
+  height: 89vh;
+  /* padding: 4rem; */
+  margin-left: 20rem;
+  /* overflow: hidden; */
+}
+
+.main{
+  background-color: #ffefef;
+  height: 93vh;
+
+}
+
+.text{
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  font-family: 'Times New Roman', Times, serif;
+  /* font-weight: bold; */
+  color: #4d1354;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+.searchbar{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin-right: 15rem;
+  flex-direction: column;
+
+}
+.searchbar input {
+  padding: 2rem;
+  font-size: 1.5rem;
+  border: 2px solid lightgray;
+  /* background-color: pink; */
+  border-radius: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  width: 50rem;
+  margin-bottom: 2rem;
+}
+.searchbar img{
+  width: 40rem;
+  height: 40rem;
+  /* margin-bottom: 1rem; */
+}
+
+
+.btnsearch {
+  padding: 1.5rem;
+  border: 2px solid #4d1354;
+  font-size: 1.5rem;
+  width: 20rem;
+  border-radius: 1rem;
+  background-color: #4d1354;
+  color: white;
+}
+.heading {
+  text-align: center;
+  padding: 2rem;
+  font-size: 4rem;
+  text-transform: uppercase;
+  background-color: #4d1354;
+  color: white;
+}
+
+.footer{
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-around;
+  /* padding: 2rem 0rem; */
+  background-color: #ffefef;
+}
+
+.columns{
+  display: flex;
+  justify-content:center ;
+  /* align-items: center; */
+  flex-direction: column;
+}
+
+/* .footerlogo img{
+  width: 6rem;
+} */
+
+.footlogo img{
+  width: 12rem;
+  filter: invert(100%);
+}
+.footheading{
+  color: #000;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.title{
+  color: black;
+  font-size: 1.5rem ;
+  font-weight: bold;
+  
+}
+.detail{
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  color: #303030;
+}
+
+.copyright{
+  padding: 2rem;
+  background-color: #f5fbff;
+  color: #525252;
+  text-align: center;
+  font-size: 2rem;
+}
